@@ -1,0 +1,86 @@
+--> GIT E GitHub
+
+
+	> OBJETIVO
+Didático
+Abordar todos os Principais comandos e Gerenciamentos de versão usando o Git e GitHub de uma forma que você entenda
+
+
+--> Prático
+Aprender a trabalhar de forma colaborativa, simulando o que empresas precisam em projetos feitos em equipe.
+
+
+	> O QUE É GIT
+
+Sistema de controle de versão de Código
+
+É um sistema que permite registrar mudanças realizadas no código e mantê-las Organizadas e facilmente identificáveis.
+
+Usado por devs para gerenciar projetos de software, mas pode ser usado para outros tipos de arquivos, como textos, imagens, entre outros.
+
+Mantém uma história completa de todas as alterações realizadas no códig, tornando fácilvoltar a versões anteriores ou comparar diferenças entre versões.
+
+Os códigos podem ser fácilmente compartilhados, colaborando com outros desenvolvedores.
+
+ 	> Funciona através de linha de comando.
+	
+
+	> Commits (Comitar)
+	> Branch (Ramificação)
+
+
+	> O QUE É O GITHUB
+
+Lugar onde você vai salvar os versionamentos.
+
+É um repositório, ou seja o local, a plataform online onde você vai salvar os projetos versionados com o GIT.
+
+Seus projetos ficam salvos na Nuvem.
+
+
+GIT: Sistema de versionamento > Terminal onde vai passar os comandos.
+
+GITHUB: Lugr onde você salva os Projetos
+
+
+> Instalação 
+
+Códigos
+ - Inicializar o Git: git  init
+Inicializou porém o arquivo ainda não está trabalhando dentro do Git.
+
+- Git status:
+Como está o status do nosso git. 
+Exem. Branch master > on seja, ramificação principal do projeto.
+Podemos criar varias ramificações / braços do nosso projeto.
+
+- Git add
+Adicionar nosso código ao git 
+
+- Comando Principal: git commit -m "inicializamos o porjeto"
+
+Adicionar E-mail e username para estar associado ao seu repositório do git. é um controle global do git com a sua maquina.
+
+git commit -m "inicializamos o projeto"
+
+
+- git log
+Mostra uma visão geral do nosso git
+
+- git add .
+
+RECAPITULANDO:
+
+git init: inicia um novo repositório git  local na pasta atual.
+
+git  add: adiciona arquivos selecionados para área de stage (pronto para ser commitado). ou git add . (Vai adicionar tudo que foi modificado / criado)
+git commit: grava as alterações feitas na área de stage como uma nova versão do código.
+
+git status: verifica o status atual do repositório, incluindo arquivos modificados e arquivos na área de stage.
+
+git log: ver histórico de commits.
+
+
+
+
+
